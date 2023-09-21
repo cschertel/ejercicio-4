@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-container {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.card-element {
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    width: 25%;
+    padding: 0 0 10px 0;
+    margin: 1%;
+    -webkit-box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.32);
+    box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.32);
+    transition: all 1s ease;
+}
+
+.card-element:hover {
+    transform: scale(1.01);
+    -webkit-box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+li.card-element {
+    float: left;
+}
+
+.centrar-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #202124;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.p-descripcion {
+    color: #5f6368;
+}
+
+.card-text {
+    padding: 0 4% 20px;
+}
+
+button {
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 0;
+    color: #ffffff;
+    background-color: #313131;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.m-top {
+    margin-top: 10px;
+}
+
+.m-left {
+    margin-left: 10px;
+}
+
+.precio {
+    color: #9ca2cc;
+    font-size: 1rem;
+    margin-top: 0.7px;
+}
+
+@media only screen and (max-width: 992px) {
+    .card-element {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card-element {
+        width: 80%;
+    }
+}
